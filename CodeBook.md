@@ -42,30 +42,25 @@
    * tBodyGyroMean
    * tBodyGyroJerkMean
 
-## *Activities*
+## **Activities**
 
-    WALKING
-    WALKING_UPSTAIRS
-    WALKING_DOWNSTAIRS
-    SITTING
-    STANDING
-    LAYING
+   * WALKING
+   * WALKING_UPSTAIRS
+   * WALKING_DOWNSTAIRS
+   * SITTING
+   * STANDING
+   * LAYING
 
-The run_analysis.R script does the following
+## **The run_analysis.R script does the following**
 
-    Merges the training and test set in 1 data set.
-
-    use rbind() to merge each table in train and test. ( combine each x, y, and sub to create x_all,y_all, and sub_all)
-    use cbind() to merge tbe x_all,y_all, and sub_all to create train_test
-
-    Extracted mean and standard deviation measurements from the merged data set.
-
-    use grepl on column names of train test to extract "std" and "mean"
-    overwrite train_test
-
-    Renamed the activities and the features to more descriptive names.
-
-    rename the columns using gsub() 4)Created the final data set as tidydata.txt with average of each variable for each activity and each subject.
-    group_by() to group Activity and Subject
-    get mean using summarize_all()
-    create new file using write.table()
+   1. Merges the training and test set in 1 data set.
+      * use rbind() to merge each table in train and test. ( combine each x, y, and sub to create x_all,y_all, and sub_all)
+      * use cbind() to merge tbe x_all,y_all, and sub_all to create train_test
+   2. Extracted mean and standard deviation measurements from the merged data set.
+      * use grepl on column names of train test to extract "std" and "mean"
+      * overwrite train_test
+   3. Renamed the activities and the features to more descriptive names.
+      * rename the columns using gsub() 4)Created the final data set as tidydata.txt with average of each variable for each activity and each subject.
+      * group_by() to group Activity and Subject
+      * get mean using summarize_all()
+      * create new file using write.table()
