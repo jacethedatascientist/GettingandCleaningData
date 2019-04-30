@@ -1,48 +1,48 @@
 # Tidy Data Code Book
-### This contains information on the data, variables, and summaries calculated.
+### This contains information on the **data**, **variables**, and **summaries** calculated.
 # Source File
 ### The data used in this course assignment is from accelerometers from the Samsung Galaxy S smartphone.
 
 #### Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 #### Data full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Dataset Files
+## **Dataset Files**
 
-    README.txt
-    features_info.txt: Shows information about the variables used on the feature vector.
-    features.txt: List of all features.
-    activity_labels.txt: Links the class labels with their activity name.
-    train/X_train.txt: Training set.
-    train/y_train.txt: Training labels.
-    test/X_test.txt: Test set.
-    test/y_test.txt: Test labels.
+   * README.txt
+   * features_info.txt: Shows information about the variables used on the feature vector.
+   * features.txt: List of all features.
+   * activity_labels.txt: Links the class labels with their activity name.
+   * train/X_train.txt: Training set.
+   * train/y_train.txt: Training labels.
+   * test/X_test.txt: Test set.
+   * test/y_test.txt: Test labels.
 
-Features
+## **Features**
 
-    tBodyAcc-XYZ
-    tGravityAcc-XYZ
-    tBodyAccJerk-XYZ
-    tBodyGyro-XYZ
-    tBodyGyroJerk-XYZ
-    tBodyAccMag
-    tGravityAccMag
-    tBodyAccJerkMag
-    tBodyGyroMag
-    tBodyGyroJerkMag
-    fBodyAcc-XYZ
-    fBodyAccJerk-XYZ
-    fBodyGyro-XYZ
-    fBodyAccMag
-    fBodyAccJerkMag
-    fBodyGyroMag
-    fBodyGyroJerkMag
-    gravityMean
-    tBodyAccMean
-    tBodyAccJerkMean
-    tBodyGyroMean
-    tBodyGyroJerkMean
+   * tBodyAcc-XYZ
+   * tGravityAcc-XYZ
+   * tBodyAccJerk-XYZ
+   * tBodyGyro-XYZ
+   * tBodyGyroJerk-XYZ
+   * tBodyAccMag
+   * tGravityAccMag
+   * tBodyAccJerkMag
+   * tBodyGyroMag
+   * tBodyGyroJerkMag
+   * fBodyAcc-XYZ
+   * fBodyAccJerk-XYZ
+   * fBodyGyro-XYZ
+   * fBodyAccMag
+   * fBodyAccJerkMag
+   * fBodyGyroMag
+   * fBodyGyroJerkMag
+   * gravityMean
+   * tBodyAccMean
+   * tBodyAccJerkMean
+   * tBodyGyroMean
+   * tBodyGyroJerkMean
 
-Activities
+## *Activities*
 
     WALKING
     WALKING_UPSTAIRS
