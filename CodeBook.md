@@ -54,8 +54,8 @@
 ## **The run_analysis.R script does the following**
 
    1. It merged the training and test set into a 1 whole dataset.
-      * Used rbind() to merge each (x,y, and subj tables) table in train and test.
-      * Used cbind() to merge tbe x_final,y_final, and subj_final to create the train_test dataset.
+      * Used ***rbind()*** to merge each (x,y, and subj tables) table in train and test.
+      * Used ***cbind()*** to merge tbe x_final,y_final, and subj_final to create the train_test dataset.
    2. Extracted mean and standard deviation measurements from the resulting merged data set.
       * Used ***grepl*** on column names of train test to extract *"std"* and *"mean"*.
       * Overwrote the train_test dataset.
