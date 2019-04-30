@@ -1,12 +1,12 @@
 # Tidy Data Code Book
 ### This contains information on the data, variables, and summaries calculated.
-## Source File
+# Source File
 ### The data used in this course assignment is from accelerometers from the Samsung Galaxy S smartphone.
 
-    Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-    Data full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+#### Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#### Data full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Dataset Files
+## Dataset Files
 
     README.txt
     features_info.txt: Shows information about the variables used on the feature vector.
